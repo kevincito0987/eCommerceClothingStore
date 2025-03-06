@@ -5,3 +5,19 @@
     margin: 0;
     padding: 0;
 }
+/* style.css */
+.button-custom {
+    background-color: #00bcd4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
