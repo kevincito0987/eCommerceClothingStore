@@ -1,0 +1,16 @@
+:root {
+    --color-1: #787676;
+    --color-2: #121111;
+    --color-3: #CAC9C9;
+    --color-4: #FDFDFD;
+    --color-5: #292526;
+    --color-6: #F6F6F6;
+    --color-7: #347EFB;
+    --color-8: #878787;
+    --color-9: #F2F2F2;
+}
+
+@font-face {
+    font-family: "example";
+    src: url(../src/font/Encode_Sans/static/EncodeSans-Black.ttf);
+}
