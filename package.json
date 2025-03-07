@@ -1,6 +1,5 @@
-
 {
-  "name": "ecommerceclothingstore",
+  "name": "commerceclothingstore",
   "version": "1.0.0",
   "description": "El proyecto consiste en la creación de una página web de ecommerce dedicada exclusivamente a la venta de ropa, utilizando solo HTML y CSS para la maquetación. El objetivo es diseñar una interfaz atractiva, fácil de usar, que permita a los usuarios explorar y comprar productos de ropa de manera intuitiva. La web contará con tres vistas principales: una página de inicio, una página de detalle de producto y una página de carrito de compras, todas diseñadas para ofrecer una experiencia de usuario fluida y atractiva.",
   "main": "index.js",
@@ -23,6 +22,7 @@
     "tailwindcss": "^4.0.11"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.0.11"
+    "@tailwindcss/cli": "^4.0.11",
+    "sweetalert2": "^11.6.13"
   }
 }
