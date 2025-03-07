@@ -19,3 +19,7 @@
     font-family: "Encode_Sans-Bold";
     src: url(../storage/font/Encode_Sans/static/EncodeSans-Bold.ttf);
 }
+@font-face {
+    font-family: "Encode_Sans-SemiBold";
+    src: url(../storage/font/Encode_Sans/static/EncodeSans-SemiBold.ttf);
+}
