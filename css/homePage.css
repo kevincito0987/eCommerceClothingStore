@@ -398,7 +398,7 @@ li:active a {
 .iconimage3 img {
     width: 16px;
     height: 16px;
-    object-fit: contain;
+    object-fit: cover;
 }
 .card-image4 {
     width: 100%; 
@@ -411,7 +411,7 @@ li:active a {
 .card-image4 img {
     width: 100%;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
 }
 .iconimage4 {
     width: 24px;
