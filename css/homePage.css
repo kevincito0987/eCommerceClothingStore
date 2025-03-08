@@ -198,60 +198,39 @@ li:active a {
 /******************************************/
 
 .card-container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    margin: 0px, 10px;
-    padding: 0px 5px 32px 5px;
-    gap: 17px;
+    padding: 0 5px 32px;
     align-items: center;
     justify-content: center;
     position: relative;
-}
-.cards1 {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    flex: 1;
-    width: 100%;
-    position: relative;
-    box-sizing: content-box;
-    margin-top: 24px;
-}
-.cards2 {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    flex: 1;
-    width: 100%;
-    position: relative;
-    box-sizing: content-box;
-}
-.card1 {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    width: 100%;
-}
-.card2 {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    width: 100%;
-}
-.card3 {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    width: 100%;
+    margin: 0 10px;
 }
 
-.card4 {
+.cards1, .cards2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    position: relative;
+    box-sizing: content-box;
+}
+
+.cards1 {
+    margin-top: 24px;
+}
+
+.card1, .card2, .card3, .card4 {
     display: flex;
     flex-direction: column;
     flex: 1;
     width: 100%;
+    background: var(--color-12);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .card-title {
     font-family: "Encode_Sans-SemiBold";
     font-size: 14px;
@@ -260,6 +239,7 @@ li:active a {
     height: 21px;
     margin-top: 8px;
 }
+
 .card-text {
     font-family: "Encode_Sans-Regular";
     font-size: 10px;
@@ -268,6 +248,7 @@ li:active a {
     height: 15px;
     margin-top: 4px;
 }
+
 .card-button {
     display: flex;
     flex-direction: row;
@@ -276,6 +257,7 @@ li:active a {
     height: 21px;
     margin-top: 8px;
 }
+
 .card-button p {
     font-family: "Encode_Sans-SemiBold";
     font-size: 14px;
@@ -283,6 +265,7 @@ li:active a {
     width: 49px;
     height: 15px;
 }
+
 .valoration {
     display: flex;
     flex-direction: row;
@@ -291,6 +274,7 @@ li:active a {
     width: 38px;
     height: 18px;
 }
+
 .valoration p {
     font-family: "Encode_Sans-Regular";
     font-size: 12px;
@@ -298,126 +282,39 @@ li:active a {
     width: 16px;
     height: 18px;
 }
-.card-image1 {
+
+.card-image1, .card-image2, .card-image3, .card-image4 {
     width: 100%;
-    height: 217px;
     position: relative;
     overflow-y: scroll;
     border-radius: 16px;
 }
 
-.card-image1 img {
+.card-image1 img, .card-image2 img, .card-image3 img, .card-image4 img {
     width: 100%;
     height: auto;
     object-fit: cover;
-}
-.iconimage1 {
-    width: 24px;
-    height: 24px;
-    position: relative;
-    border-radius: 16px;
-    background: var(--color-5);
-    margin: -264px 6px 20px 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-}
-.iconimage1 img {
-    width: 16px;
-    height: 16px;
-    object-fit: cover;
-}
-.card-image2 {
-    width: 100%;
-    height: 251px;
-    position: relative;
-    overflow-y: scroll;
-    border-radius: 16px;
 }
 
-.card-image2 img {
-    width: 98%;
-    height: auto;
-    object-fit: cover;
-}
-.iconimage2 {
+.iconimage1, .iconimage2, .iconimage3, .iconimage4 {
     width: 24px;
     height: 24px;
-    position: relative;
-    border-radius: 16px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
     background: var(--color-5);
-    margin: -293px 6px 20px 156px;
     display: flex;
     justify-content: center;
     align-items: center;
-    object-fit: cover;
-}
-.iconimage2 img {
-    width: 16px;
-    height: 16px;
-    object-fit: cover;
-}
-.card-image3 {
-    width: 100%;
-    height: 217px;
-    position: relative;
-    overflow-y: scroll;
-    border-radius: 16px;
 }
 
-.card-image3 img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-.iconimage3 {
-    width: 24px;
-    height: 24px;
-    position: relative;
-    border-radius: 16px;
-    background: var(--color-5);
-    margin: -264px 6px 20px 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-}
-.iconimage3 img {
+.iconimage1 img, .iconimage2 img, .iconimage3 img, .iconimage4 img {
     width: 16px;
     height: 16px;
     object-fit: cover;
-}
-.card-image4 {
-    width: 100%; 
-    height: 221px;
-    position: relative;
-    overflow-y: scroll;
-    border-radius: 16px;
 }
 
-.card-image4 img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-.iconimage4 {
-    width: 24px;
-    height: 24px;
-    position: relative;
-    border-radius: 16px;
-    background: var(--color-5);
-    margin: -223px 6px 20px 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-}
-.iconimage4 img {
-    width: 16px;
-    height: 16px;
-    object-fit: cover;
-}
 
 /**************** footer ******************/
 footer {
@@ -442,14 +339,14 @@ footer::after{
     justify-content: center;
     align-items: center;
     width: 60px;
-    height: 60px;
-    background: var(--color-4);
+    height: 50px;
+    background: var(--color-3);
     position: absolute;
     inset: 0;
     top: -65px;
     border-radius: 100%;
     margin: auto;
-    box-shadow: 0px 0px 25px var(--color-4);
+    box-shadow: 0px 0px 35px var(--color-6);
 }
 footer:hover::after{
     /* background: black; */
