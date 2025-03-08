@@ -251,6 +251,7 @@ footer {
     align-items: center;
     justify-content: center; /* Centramos el contenido horizontalmente */
     position: sticky;
+    margin-top: 60px;
     bottom: 0;
     z-index: 10;
     border-radius: 45px;
