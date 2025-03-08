@@ -10,14 +10,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const movingBar = document.getElementById("moving-bar");
 
+    function moveBarToIcon(iconElement) {
+        const iconRect = iconElement.getBoundingClientRect();
+        const footerRect = iconElement.closest('footer').getBoundingClientRect();
+        const barPosition = iconRect.left - footerRect.left + (iconElement.offsetWidth / 2) - (movingBar.offsetWidth / 2);
+        movingBar.style.transform = `translateX(${barPosition}px)`;
+    }
+
+    // Inicializar la barra en el primer ícono (la casa)
+    const homeIcon = document.getElementById("home-icon");
+    if (homeIcon) {
+        moveBarToIcon(homeIcon);
+    }
+
     icons.forEach(icon => {
         const iconElement = document.getElementById(icon.id);
         if (iconElement) {
             iconElement.addEventListener('click', (event) => {
                 event.preventDefault();
-                const barPosition = iconElement.offsetLeft + (iconElement.offsetWidth / 2) - (movingBar.offsetWidth / 2);
-                movingBar.style.transform = `translateX(${barPosition}px)`;
-                movingBar.style.top = `${iconElement.offsetTop + iconElement.offsetHeight}px`; // Ajustar top para colocarlo debajo de los íconos
+                moveBarToIcon(iconElement);
             });
         }
     });

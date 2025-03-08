@@ -390,7 +390,7 @@ footer:hover::after{
     background-color: var(--color-4);
     position: absolute;
     bottom: 0; /* Ajustar para que se vea debajo de los íconos */
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
     left: 0px;
     border-radius: 5px;
 }
