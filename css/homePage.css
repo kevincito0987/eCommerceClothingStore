@@ -381,3 +381,32 @@ footer:hover::after{
     padding-bottom: 10px;
 
 }
+
+/**************** movingBar ******************/
+
+.moving-bar {
+    width: 20px;
+    height: 10px;
+    background-color: var(--color-4);
+    position: absolute;
+    bottom: 0; /* Ajustar para que se vea debajo de los íconos */
+    transition: transform 0.3s ease;
+    left: 0px;
+    border-radius: 5px;
+}
+
+.div__izquierdo, .div__derecho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div__izquierdo a, .div__derecho a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
