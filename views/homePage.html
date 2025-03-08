@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Home Page</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="../css/output.css" rel="stylesheet">
@@ -123,15 +123,19 @@
         </main>
         <footer>
             <div class="div__izquierdo">
-                <a href="#"><img src="../storage/icons/icon7PageHome.svg" alt="Icon1"></a>
-                <a href="#"><img src="../storage/icons/icon8PageHome.svg" alt="Icon2"></a>
+                <a href="#" id="home-icon"><img src="../storage/icons/icon7PageHome.svg" alt="Icon1"></a>
+                <a href="#" id="bag-icon"><img src="../storage/icons/icon8PageHome.svg" alt="Icon2"></a>
             </div>
             <div class="div__derecho">
-                <a href="#">
+                <a href="#" id="heart-icon">
                     <img src="../storage/icons/icon9PageHome.svg" alt="Icon3">
                 </a>
-                <a href="#"><img src="../storage/icons/icon10PageHome.svg" alt="Icon4"></a>
+                <a href="#" id="profile-icon"><img src="../storage/icons/icon10PageHome.svg" alt="Icon4"></a>
+            </div>
+            <div id="footer-details" class="footer-details">
+                <!-- El contenido que se mueve debajo de los íconos se muestra aquí -->
             </div>
         </footer>
+        <script src="../js/components/footer.js" type="module"></script>
     </body>
 </html>
