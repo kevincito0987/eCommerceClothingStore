@@ -5,6 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="../css/detailPage.css" rel="stylesheet">
+        <!-- Incluir la librería SweetAlert2 -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     </head>
     <body>
         <main>
@@ -35,9 +37,9 @@
                     </div>
                     <div class="sectionright">
                         <div class="quantity-selector">
-                            <div class="icon1"><img src="../storage/icons/minorIcon.svg" alt="Minus Icon"></div>
-                            <h2>1</h2>
-                            <div class="icon1"><img src="../storage/icons/maxIcon.svg" alt="Plus Icon"></div>
+                            <div class="icon1"><img src="../storage/icons/minorIcon.svg" alt="Minus Icon" id="decrement"></div>
+                            <h2 id="quantity">1</h2>
+                            <div class="icon1"><img src="../storage/icons/maxIcon.svg" alt="Plus Icon" id="increment"></div>
                         </div>
                     </div>
                 </div>
@@ -66,11 +68,15 @@
             </section>
         </main>
         <footer>
-            <img src="../storage/icons/icon1PageDetail.svg" alt="footerIcon">
+            <a href="#" id="add-to-cart-button">
+                <img src="../storage/icons/icon1PageDetail.svg" alt="Add to Cart Icon">
+            </a>
             <div class="context">
                 <h3>Add to Cart | $100.99</h3>
                 <p>$190.99</p>
             </div>
         </footer>
+        <script src="../js/detailPage.js" type="module"></script>
+        <script src="../js/payment.js" type="module"></script>
     </body>
 </html>
