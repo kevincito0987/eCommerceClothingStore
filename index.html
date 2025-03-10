@@ -22,7 +22,7 @@
                     <p class="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">Proyecto desarrollado para crear una tienda de ropa en línea con una interfaz atractiva y funcional.</p>
                   </div>
                   <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-                    <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+                    <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:grid-cols-3 lg:gap-x-10">
                       <a href="#">Catálogo de productos <span aria-hidden="true">&rarr;</span></a>
                       <a href="#">Carrito de compras <span aria-hidden="true">&rarr;</span></a>
                       <a href="#">Pasarela de pagos <span aria-hidden="true">&rarr;</span></a>
@@ -47,19 +47,32 @@
                       </div>
                     </dl>
                   </div>
-                  <!-- Aquí agregamos la tarjeta (card) con los estilos y el contenido solicitado -->
-                  <div class="mx-auto grid gap-6 lg:grid-cols-3 card-container">
-                    <div class="max-w-sm bg-transparent border-none flex flex-col items-center justify-center shadow-md card">
-                      <div class="p-6 text-center">
-                        <img src="./storage/img/ProfilePageHome.png" alt="User Image" class="mx-auto mb-4 rounded-full w-24 h-24 object-cover image">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 albert-stevano">Albert Stevano</h5>
-                        <button class="button-custom">
-                          View Profile
-                          <img src="./storage/icons/profile_si8akamcc6gc.svg" alt="SVG Icon">
-                        </button>
-                      </div>
+                  <!-- Aquí optimizamos el grid de las tarjetas -->
+                  <div class="mx-auto mt-10 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 cards">
+                    <div class="bg-transparent border-none flex flex-col items-center justify-center shadow-md p-6 text-center">
+                      <img src="./storage/img/ProfilePageHome.png" alt="User Image" class="mx-auto mb-4 rounded-full w-24 h-24 object-cover image">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 albert-stevano">Albert Stevano</h5>
+                      <button class="button-custom">
+                        View Profile
+                        <img src="./storage/icons/profile_si8akamcc6gc.svg" alt="SVG Icon">
+                      </button>
                     </div>
-                    <!-- Tarjetas adicionales pueden agregarse aquí -->
+                    <div class="bg-transparent border-none flex flex-col items-center justify-center shadow-md p-6 text-center">
+                      <img src="./storage/img/user2.jpeg" alt="User Image" class="mx-auto mb-4 rounded-full w-24 h-24 object-cover image">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 albert-stevano">Kenpachi Zaraki</h5>
+                      <button class="button-custom">
+                        View Profile
+                        <img src="./storage/icons/profile_si8akamcc6gc.svg" alt="SVG Icon">
+                      </button>
+                    </div>
+                    <div class="bg-transparent border-none flex flex-col items-center justify-center shadow-md p-6 text-center">
+                      <img src="./storage/img/user3.jpeg" alt="User Image" class="mx-auto mb-4 rounded-full w-24 h-24 object-cover image">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 albert-stevano">Gal Gadot</h5>
+                      <button class="button-custom">
+                        View Profile
+                        <img src="./storage/icons/profile_si8akamcc6gc.svg" alt="SVG Icon">
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
