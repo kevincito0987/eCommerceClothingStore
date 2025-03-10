@@ -11,6 +11,6 @@
 }
 
 @font-face {
-    font-family: "example";
-    src: url(../src/font/Encode_Sans/static/EncodeSans-Black.ttf);
+    font-family: "Encode_Sans-Regular";
+    src: url(../storage/font/Encode_Sans/static/EncodeSans-Regular.ttf);
 }
