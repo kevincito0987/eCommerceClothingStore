@@ -108,6 +108,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 0;
+    background-size: cover;
     padding: 10px;
     background: var(--color-5);
     position: sticky;
