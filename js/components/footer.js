@@ -26,8 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     icons.forEach(icon => {
         const iconElement = document.getElementById(icon.id);
         if (iconElement) {
-            iconElement.addEventListener('click', (event) => {
-                event.preventDefault();
+            iconElement.addEventListener('mouseover', (event) => {
                 moveBarToIcon(iconElement);
             });
         }
