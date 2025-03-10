@@ -14,3 +14,7 @@
     font-family: "Encode_Sans-Regular";
     src: url(../storage/font/Encode_Sans/static/EncodeSans-Regular.ttf);
 }
+@font-face {
+    font-family: "Encode_Sans-Semibold";
+    src: url(../storage/font/Encode_Sans/static/EncodeSans-SemiBold.ttf);
+}
