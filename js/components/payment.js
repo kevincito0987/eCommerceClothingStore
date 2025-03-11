@@ -1,30 +1,28 @@
-// payment.js
+// dialog.js
 
 // Función para mostrar el cuadro de diálogo
-function showAddToCartDialog() {
+function showDialog() {
     Swal.fire({
-        title: "Do you want to add this item to your cart?",
+        title: "Do you want to save the changes?",
         showDenyButton: true,
         showCancelButton: true,
-        confirmButtonText: "Add",
-        denyButtonText: `Don't add`
+        confirmButtonText: "Save",
+        denyButtonText: `Don't save`
     }).then((result) => {
         // Verificar la elección del usuario
         if (result.isConfirmed) {
-            Swal.fire("Added!", "The item has been added to your cart.", "success");
+            Swal.fire("Saved!", "", "success");
         } else if (result.isDenied) {
-            Swal.fire("Not Added", "The item was not added to your cart.", "info");
+            Swal.fire("Changes are not saved", "", "info");
         }
     });
 }
 
-// Añadir listener al botón "Add to Cart"
-document.addEventListener('DOMContentLoaded', (event) => {
-    const addToCartButton = document.getElementById("add-to-cart-button");
-    if (addToCartButton) {
-        addToCartButton.addEventListener("click", function(event) {
-            event.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
-            showAddToCartDialog(); // Llamar a la función para mostrar el cuadro de diálogo
-        });
-    }
+// Añadir un listener al botón "Pay"
+document.getElementById("pay-button").addEventListener("click", function(event) {
+    event.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+    showDialog(); // Llamar a la función para mostrar el cuadro de diálogo
 });
+
+// Exportar la función para usarla en otros archivos si es necesario
+export { showDialog };
