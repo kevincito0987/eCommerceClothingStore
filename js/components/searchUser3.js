@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     const productList = [
-        { id: "card1", name: "Biker Leather Jacket", category: "Outerwear", price: "$129.99" },
-        { id: "card2", name: "Urban Street Style", category: "Streetwear", price: "$99.99" },
-        { id: "card3", name: "Elegant Black Gown", category: "Evening Wear", price: "$249.99" },
-        { id: "card4", name: "Floral Summer Dress", category: "Casual Wear", price: "$139.99" },
-        { id: "card5", name: "Elegant Black Jumpsuit", category: "Evening Wear", price: "$159.99" },
-        { id: "card6", name: "Trendy Nightwear Set", category: "Fashion Wear", price: "$189.99" }
+        { id: "card1", name: "Emerald Glam Gownt", category: "Evening Wear", price: "$299.99" },
+        { id: "card2", name: "UClassic Black Cocktail Dress", category: "Casual Elegance", price: "$129.99" },
+        { id: "card3", name: "Urban Chic Two-Piece", category: "Streetwear Fashion", price: "$159.99" },
+        { id: "card4", name: "Runway Boho Chic", category: "Alta Costura", price: "$289.99" },
+        { id: "card5", name: "Streetwear Varsity Style", category: "Moda Urbana", price: "$149.99" },
+        { id: "card6", name: "Chaqueta Varsity Black & White", category: "Moda Urbana", price: "$139.99" }
     ];
 
     const formBusqueda = document.querySelector(".form__busqueda");
