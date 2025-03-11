@@ -296,7 +296,7 @@ footer {
     bottom: 0;
     z-index: 10;
     border-radius: 45px;
-    box-shadow: 0px 0px 25px 20px var(--color-14);
+    box-shadow: 0px 0px 25px 20px var(--color-9);
 }
 
 .context {
