@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+        <link rel="stylesheet" href="../css/profile.css">
+    </head>
+    <body class="bg-gray-100">
+        <div class="min-h-screen flex flex-col">
+            <div class="header flex-grow flex items-center justify-center">
+                <img class="h-24 md:h-48 lg:h-64 w-full object-cover imageProfile" src="../storage/img/ProfilePageHome.png" alt="Profile Picture">
+            </div>
+            <div class="max-w-md mx-auto bg-white shadow-md overflow-hidden md:max-w-2xl mt-10 md:mt-16 lg:mt-20 p-8 md:p-10 lg:p-12 flex-grow perfil">
+                <div class="uppercase tracking-wide text-sm profile">Profile</div>
+                <form class="mt-6 space-y-4">
+                    <div class="flex flex-wrap items-center space-x-3">
+                        <label class="block text-gray-700 text-sm font-bold w-full md:w-auto" for="name">Name</label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" value="Albert Stevano">
+                    </div>
+                    <div class="flex flex-wrap items-center space-x-3">
+                        <label class="block text-gray-700 text-sm font-bold w-full md:w-auto" for="email">Email</label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" value="AlbertStevano@gmail.com">
+                    </div>
+                    <div class="flex flex-wrap items-center space-x-3">
+                        <label class="block text-gray-700 text-sm font-bold w-full md:w-auto" for="address">Delivery Address</label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="address" type="text" value="123 Main St Apartment 4A, New York, NY">
+                    </div>
+                    <div class="flex flex-wrap items-center space-x-3">
+                        <label class="block text-gray-700 text-sm font-bold w-full md:w-auto" for="password">Password</label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" value="********">
+                    </div>
+                    <div class="flex items-center justify-between mt-6">
+                        <button class=" edit hover:bg-blue-700 py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" onclick="showEditDialog()">Edit Profile</button>
+                        <button class="log py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">Log out</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="../js/components/profile.js"></script>
+    </body>
+</html>
