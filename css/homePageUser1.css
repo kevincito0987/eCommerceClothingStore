@@ -208,7 +208,7 @@ li:active a {
     margin: 0 10px;
 }
 
-.cards1, .cards2 {
+.cards1, .cards2, .cards3 {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -221,7 +221,7 @@ li:active a {
     margin-top: 24px;
 }
 
-.card1, .card2, .card3, .card4 {
+.card1, .card2, .card3, .card4, .card5, .card6 {
     display: flex;
     flex-direction: column;
     flex: 1;

@@ -203,115 +203,91 @@ li:active a {
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Por defecto: una tarjeta por fila */
-    gap: 20px; /* Espacio entre tarjetas */
+    grid-template-columns: repeat(2, 1fr); /* Dos tarjetas por fila en dispositivos móviles */
+    gap: 20px;
     padding: 0 5px 32px;
-    align-items: center;
+    align-items: start; /* Alineación superior para contenido variable */
     justify-content: center;
+    width: 100%;
     margin: 0 10px;
-    width: 96%; /* Asegura que ocupe el 100% del contenedor */
-}
-/* Dos tarjetas por fila en dispositivos medianos (celulares grandes) */
-@media (min-width: 480px) {
-    .card-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
-/* Tres tarjetas por fila en dispositivos grandes (tabletas y más) */
+/* Una tarjeta por fila en pantallas más grandes */
 @media (min-width: 768px) {
     .card-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr); /* Una tarjeta por fila */
+    }
+}
+.cards1, .cards2, .cards3 {
+    display: grid; /* Asegura que cada sección sea un grid independiente */
+    grid-template-columns: repeat(2, 1fr); /* Dos tarjetas por fila por defecto */
+    gap: 20px; /* Espaciado entre las tarjetas */
+    margin-bottom: 20px; /* Espacio entre secciones */
+}
+
+/* Estilos específicos para cada sección */
+.cards1 {
+    background-color: var(--color-10); /* Color de fondo específico */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 8px;
+}
+
+.cards2 {
+    background-color: var(--color-12); /* Color de fondo diferente */
+    padding: 15px;
+    border: 2px solid var(--color-5); /* Bordes únicos */
+}
+
+.cards3 {
+    background-color: var(--color-3); /* Otra variación de color */
+    padding: 15px;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Responsividad para que todas las secciones sean de una tarjeta por fila en pantallas más grandes */
+@media (min-width: 768px) {
+    .cards1, .cards2, .cards3 {
+        grid-template-columns: repeat(1, 1fr); /* Una tarjeta por fila */
     }
 }
 
-/* Tarjeta individual */
+
+/* Estilo general para todas las tarjetas */
 .card {
-    display: flex;
-    flex-direction: column;
-    background: var(--color-12);
+    background-color: var(--color-12);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 100%; /* Para asegurarse de ajustarse dentro del grid */
-}
-.card-title {
-    font-family: "Encode_Sans-SemiBold";
-    font-size: 14px;
-    color: var(--color-2);
-    width: 100%;
-    height: 21px;
-    margin-top: 8px;
-}
-
-.card-text {
-    font-family: "Encode_Sans-Regular";
-    font-size: 10px;
-    color: var(--color-1);
-    width: 100%;
-    height: 15px;
-    margin-top: 4px;
-}
-
-.card-button {
     display: flex;
-    flex-direction: row;
-    gap: 24px;
+    flex-direction: column;
+    position: relative;
     width: 100%;
-    height: 21px;
-    margin-top: 8px;
 }
 
-.card-button p {
-    font-family: "Encode_Sans-SemiBold";
-    font-size: 14px;
-    color: var(--color-5);
-    width: 49px;
-    height: 15px;
-}
-
-.valoration {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 38px;
-    height: 18px;
-}
-
-.valoration p {
-    font-family: "Encode_Sans-Regular";
-    font-size: 12px;
-    color: var(--color-5);
-    width: 16px;
-    height: 18px;
-}
-
+/* Estilo de las imágenes en las tarjetas */
 .card-image1, .card-image2, .card-image3, .card-image4 {
     width: 100%;
+    height: 100px; /* Altura máxima controlada */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    border-radius: 16px 16px 0 0;
     position: relative;
-    overflow-y: scroll;
-    border-radius: 16px;
-    margin-top: 20px;
 }
 
 .card-image1 img, .card-image2 img, .card-image3 img, .card-image4 img {
     width: 100%;
-    height: auto;
-    object-fit: contain;
+    object-fit: cover; /* Mantiene proporción sin deformar */
+    object-position: center; /* Centra el contenido importante */
 }
-.image1 {
-    width: 100%;
-    height: auto;
-}
+
+/* Icono flotante (favorito) */
 .iconimage1, .iconimage2, .iconimage3, .iconimage4 {
     width: 24px;
     height: 24px;
     position: absolute;
     top: 10px;
     right: 10px;
-    border-radius: 50%;
     background: var(--color-5);
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,9 +296,66 @@ li:active a {
 .iconimage1 img, .iconimage2 img, .iconimage3 img, .iconimage4 img {
     width: 16px;
     height: 16px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
+/* Contenido de la tarjeta */
+.card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Estilo del título */
+.card-title {
+    font-family: "Encode_Sans-SemiBold";
+    font-size: 16px;
+    color: var(--color-2);
+}
+
+/* Estilo del texto de descripción */
+.card-text {
+    font-family: "Encode_Sans-Regular";
+    font-size: 14px;
+    color: var(--color-1);
+}
+
+/* Botón (precio y valoración) */
+.card-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-button p {
+    font-family: "Encode_Sans-SemiBold";
+    font-size: 16px;
+    color: var(--color-5);
+    margin: 0;
+}
+
+.valoration {
+    display: flex;
+    align-items: center;
+}
+
+.valoration img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.valoration p {
+    font-family: "Encode_Sans-Regular";
+    font-size: 14px;
+    color: var(--color-5);
+    margin: 0;
+}
+
+.image1 {
+    margin-top: 20px;
+}
 
 /**************** footer ******************/
 footer {
