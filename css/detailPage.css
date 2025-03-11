@@ -170,11 +170,39 @@ main {
     margin: 0;
 }
 
-.text {
-    font-family: "Encode_Sans-Regular";
-    font-size: 15px;
-    color: var(--color-1);
-}
+.text-container {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    text-align: justify;
+  }
+  
+  .hidden-text {
+    display: none;
+  }
+  
+  .read-more-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
 
 /* Colores y tallas */
 .colorsAndSizes {
