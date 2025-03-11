@@ -266,6 +266,16 @@ header h2 {
 .subtotal p:last-child {
     color: var(--color-10);
 }
+.submit {
+    background: var(--color-5);
+    color: var(--color-4);
+    font-family: "Encode_Sans-SemiBold";
+    font-size: 16px;
+}
+.submit:hover {
+    background: var(--color-8);
+    color: var(--color-2);
+}   
 
 /**************** footer ******************/
 footer {
