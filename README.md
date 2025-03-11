@@ -95,3 +95,42 @@ Se debe entregar el enlace a un repositorios GitHub privado (compartido con las 
 - La página web deberá ser desarrollada con código nativo HTML/CSS, sin la posibilidad de usar librerías externas.
 - Se deben desarrollar las propuestas de los módulos faltantes previo al desarrollo del código HTML/CSS, el cual se puede realizar en Adobe XD o Figma (Hacer caso omiso si dichas propuestas de módulos se entregan).
 - Debe ser *responsive (*`*@media query*`*)* y manejar UI/UX a lo largo de todo el proyecto basado en el wireframe propuesto por el equipo de diseño.
+
+## ⚠️ **¡Aviso Importante!** 🚀
+
+Para sacar el **máximo provecho** del proyecto y mejorar la experiencia visual e interactiva, se recomienda instalar:
+
+✅ **Tailwind CSS CLI** 🎨
+
+> Para estilos rápidos y eficientes, instala Tailwind CSS ejecutando:
+
+```
+sh
+CopiarEditar
+
+npm install tailwindcss @tailwindcss/cli
+npx tailwindcss -i ./css/input.css -o ./css/output.css --watch
+```
+
+✅ **SweetAlert2** 💬
+
+> Para mejorar las alertas y modales interactivos, instala SweetAlert2 con:
+
+```
+sh
+CopiarEditar
+
+npm install sweetalert2
+```
+
+> O usa el CDN en el `<head>` de tu HTML:
+
+```
+html
+
+
+CopiarEditar
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+```
+
+⚡ **Con estas herramientas, el diseño será más atractivo y la interacción con el usuario será más fluida. ¡No olvides instalarlas!** 🚀
