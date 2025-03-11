@@ -54,8 +54,8 @@ body {
   color: var(--color-4);
   font-family: "Encode_Sans-Semibold";
   font-size: 30px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .card-container {
@@ -83,4 +83,10 @@ body {
   gap: 30px;
   justify-content: center;
   margin-top: 90px;
+}
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
