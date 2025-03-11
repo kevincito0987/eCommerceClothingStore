@@ -21,7 +21,7 @@ header {
 }
 .header-information p {
     font-family: "Encode_Sans-Bold";
-    font-size: 14px;
+    font-size: 16px;
     color: var(--color-2);
     width: 115px;
     height: 24px;
