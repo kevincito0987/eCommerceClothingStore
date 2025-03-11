@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     const productList = [
-        { id: "card1", name: "Modern Light Clothes", category: "T-Shirt", price: "$212.99" },
-        { id: "card2", name: "Light Dress Bless", category: "Dress", price: "$162.99" },
-        { id: "card3", name: "Maroon Dark Top", category: "Dress", price: "$194.99" },
-        { id: "card4", name: "Light Dress Yellow", category: "Dress Modern", price: "$122.99" },
-        { id: "card5", name: "Casual Streetwear", category: "Outfit", price: "$89.99" },
-        { id: "card6", name: "Elegant Chic Suit", category: "Formal Wear", price: "$189.99" }
+        { id: "card1", name: "Biker Leather Jacket", category: "Outerwear", price: "$129.99" },
+        { id: "card2", name: "Urban Street Style", category: "Streetwear", price: "$99.99" },
+        { id: "card3", name: "Elegant Black Gown", category: "Evening Wear", price: "$249.99" },
+        { id: "card4", name: "Floral Summer Dress", category: "Casual Wear", price: "$139.99" },
+        { id: "card5", name: "Elegant Black Jumpsuit", category: "Evening Wear", price: "$159.99" },
+        { id: "card6", name: "Trendy Nightwear Set", category: "Fashion Wear", price: "$149.99" }
     ];
 
     const formBusqueda = document.querySelector(".form__busqueda");
