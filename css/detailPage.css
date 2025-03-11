@@ -21,7 +21,16 @@ main {
     border-radius: 16px;
     overflow: hidden;
 }
-
+.font-semibold {
+    font-family: "Encode_Sans-Regular";
+    font-size: 14px;
+    color: var(--color-1);
+}
+.mt-2 {
+    font-family: "Encode_Sans-Regular";
+    font-size: 14px;
+    color: var(--color-1);
+}
 .heroImage .image-container {
     height: 100%;
     width: 100%;
