@@ -95,7 +95,11 @@ main {
     height: 54px;
     margin: 0 0px; /* Aplicar márgenes laterales */
 }
-
+.read {
+    font-family: "Encode_Sans-SemiBold";
+    font-size: 18px;
+    color: var(--color-2);
+}
 .sectionleft h1 {
     font-family: "Encode_Sans-SemiBold";
     font-size: 22px;
