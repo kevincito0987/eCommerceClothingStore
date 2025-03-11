@@ -8,7 +8,12 @@
     --color-7: #347EFB;
     --color-8: #878787;
     --color-9: #F2F2F2;
-    --color-10: #171516;
+    --color-10: #DFDEDE;
+    --color-11: #433F40;
+    --color-12: #FFFFFF99;
+    --color-13: #FFFFFF99;
+    --color-14: #FFFFFF;
+    --color-15: #171516;
 }
 
 @font-face {
@@ -18,4 +23,8 @@
 @font-face {
     font-family: "Encode_Sans-Regular";
     src: url(../storage/font/Encode_Sans/static/EncodeSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Encode_Sans-Bold";
+    src: url(../storage/font/Encode_Sans/static/EncodeSans-Bold.ttf);
 }
