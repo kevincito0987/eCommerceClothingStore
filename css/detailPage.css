@@ -8,7 +8,7 @@
 
 /**************** main ******************/
 main {
-    background: var(--color-12);
+    background: var(--color-14);
 }
 
 /**************** heroImage ******************/
@@ -274,7 +274,7 @@ main {
 }
 
 .color2 {
-    background: var(--color-11);
+    background: var(--color-13);
 }
 
 .color3 {
@@ -296,7 +296,7 @@ footer {
     bottom: 0;
     z-index: 10;
     border-radius: 45px;
-    box-shadow: 0px 0px 25px 20px var(--color-12);
+    box-shadow: 0px 0px 25px 20px var(--color-14);
 }
 
 .context {
