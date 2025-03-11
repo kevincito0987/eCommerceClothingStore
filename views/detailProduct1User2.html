@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Product Detail</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../css/detailPage.css" rel="stylesheet">
+        <!-- Incluir la librería SweetAlert2 -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    </head>
+    <body>
+        <main>
+            <section class="heroImage">
+                <div class="image-container">
+                    <img src="../storage/img/Product6PageDetailUser1.jpg" alt="Hero Image" class="hero-img">
+                </div>
+                <div class="icons">
+                    <div class="hero1">
+                        <a href="#"><img src="../storage/icons/backIcon.svg" alt="heartIcon"></a>
+                    </div>
+                    <div class="hero2">
+                        <a href="#"><img src="../storage/icons/heartIconPageDetail.svg" alt="starIcon"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="description">
+                <div class="title">
+                    <div class="sectionleft">
+                        <h1>Biker Leather Jacket</h1>
+                        <div class="valoration">
+                            <img src="../storage/icons/starIcon.svg" alt="Star Icon" class="star-icon">
+                            <div class="frases">
+                                <p>5.0</p>
+                                <p>(7.932 reviews)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sectionright">
+                        <div class="quantity-selector">
+                            <div class="icon1"><img src="../storage/icons/minorIcon.svg" alt="Minus Icon" id="decrement"></div>
+                            <h2 id="quantity">1</h2>
+                            <div class="icon1"><img src="../storage/icons/maxIcon.svg" alt="Plus Icon" id="increment"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-sm mx-auto p-4 bg-white rounded-lg shadow-md">
+                    <details class="group">
+                      <summary class="cursor-pointer text-gray-800 font-semibold text-lg mb-2 flex items-center">
+                        Un clásico atemporal para quienes buscan un look rebelde y sofisticado.
+                        <span class="ml-2 text-blue-500 text-sm group-open:opacity-0 transition-opacity read">Read More...</span>
+                      </summary>
+                      <p class="text-gray-600 mt-2">
+                        La chaqueta de cuero negra agrega un toque de actitud y versatilidad, ideal para combinar con cualquier outfit casual o rockero. Perfecta para el día a día o para ocasiones donde quieras destacar con estilo.
+                      </p>
+                    </details>
+                  </div>
+                  
+                <div class="colorsAndSizes">
+                    <div class="sizes">
+                        <h3>Choose Size</h3>
+                        <div class="size">
+                            <a href="#">S</a>
+                            <a href="#">M</a>
+                            <a href="#">L</a>
+                            <a href="#">XL</a>
+                        </div>
+                    </div>
+                    <div class="colors">
+                        <h3>Color</h3>
+                        <div class="color">
+                            <div class="color1"></div>
+                            <div class="color2"></div>
+                            <div class="color3"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <a href="#" id="add-to-cart-button">
+                <img src="../storage/icons/icon1PageDetail.svg" alt="Add to Cart Icon">
+            </a>
+            <div class="context">
+                <h3>Add to Cart | $100.99</h3>
+                <p>$190.99</p>
+            </div>
+        </footer>
+        <script src="../js/components/detailPage.js" type="module"></script>
+        <script src="../js/components/payment2.js" type="module"></script>
+        <script src="../js/components/favoriteDetail1.js" type="module"></script>
+    </body>
+</html>

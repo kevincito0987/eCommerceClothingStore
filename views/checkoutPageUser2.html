@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Checkout</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../css/checkoutPage.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="flex justify-between items-center w-full h-16 px-5 shadow-md">
+            <img src="../storage/icons/backIcon.svg" alt="Back Icon" class="w-10 h-10">
+            <h2 class="text-lg font-bold text-gray-800">Checkout</h2>
+            <div class="relative">
+              <img id="menu-button" src="../storage/icons/menuIcon.svg" alt="Menu Icon" class="w-10 h-10 cursor-pointer">
+              <div id="menu" class="hidden absolute top-12 right-0 bg-white shadow-lg rounded-lg w-48">
+                <div class="flex items-center justify-center py-4 border-b">
+                  <img src="../storage/img/campus.png" alt="Campuslands Logo" class="w-12 h-12">
+                </div>
+                <ul class="py-2">
+                  <li class="px-4 py-2 hover:bg-gray-100">
+                    <a href="#" class="text-gray-700">Home Page</a>
+                  </li>
+                  <li class="px-4 py-2 hover:bg-gray-100">
+                    <a href="#" class="text-gray-700">Favorite Page</a>
+                  </li>
+                  <li class="px-4 py-2 hover:bg-gray-100">
+                    <a href="#" class="text-gray-700">Go to Shop</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </header>
+        <main>
+            <section class="card-container">
+                <div class="card1" data-price="212.99">
+                    <img src="../storage/img/Product2PageCheckoutUser2.jpeg" alt="Image1" class="card-image">
+                    <div class="cardRight">
+                        <h2 class="card-title">Elegant Black Gown</h2>
+                        <p class="card-text">Evening Wear</p>
+                        <p class="price">$249.99</p>
+                    </div>
+                    <div class="cardLeft">
+                        <img src="../storage/icons/pointsIcon.svg" alt="Points Icon">
+                        <div class="summary">
+                            <img src="../storage/icons/minorIcon.svg" alt="Minus Icon">
+                            <p class="counter">4</p>
+                            <img src="../storage/icons/maxIcon.svg" alt="Plus Icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider"></div>
+                <div class="card2" data-price="162.99">
+                    <img src="../storage/img/model4User2.jpeg" alt="Image2" class="card-image">
+                    <div class="cardRight">
+                        <h2 class="card-title">Floral Summer Dress</h2>
+                        <p class="card-text">Casual Wear</p>
+                        <p class="price">$139.99</p>
+                    </div>
+                    <div class="cardLeft">
+                        <img src="../storage/icons/pointsIcon.svg" alt="Points Icon">
+                        <div class="summary">
+                            <img src="../storage/icons/minorIcon.svg" alt="Minus Icon">
+                            <p class="counter">4</p>
+                            <img src="../storage/icons/maxIcon.svg" alt="Plus Icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider"></div>
+            </section>
+            <section class="payment">
+                <h2>Shipping Information</h2>
+                <div class="shopeCard">
+                    <div class="contain">
+                        <div class="card">
+                            <img src="../storage/icons/Visa/Default Icon.svg" alt="Visa Icon">
+                            <p>**** **** **** 6754</p>
+                        </div>
+                        <img src="../storage/icons/buttonIcon.svg" alt="Button Icon">
+                    </div>
+                </div>
+                <div class="detail">
+                    <div class="text1">
+                        <p>Total (<span id="item-count">9</span> items)</p>
+                        <p id="total-amount">$1,014.95</p>
+                    </div>
+                    <div class="text2">
+                        <p>Shipping Fee</p>
+                        <p>$.0.00</p>
+                    </div>
+                    <div class="text3">
+                        <p>Discount</p>
+                        <p>$.0.00</p>
+                    </div>
+                </div>
+                <div class="slider"></div>
+            </section>
+            <section class="subtotal">
+                <p>Sub Total</p>
+                <p id="subtotal-amount">$1,014.95</p>
+            </section>
+        </main>
+        <footer>
+            <a href="#" id="pay-button">
+                <img src="../storage/icons/paymentIcon.svg" alt="Pay Icon">
+            </a>
+            <p>Pay</p>
+        </footer>
+        <script src="../js/components/payment.js" type="module"></script>
+        <script src="../js/components/counter.js" type="module"></script>
+        <script src="../js/components/menu.js" type="module"></script>
+
+    </body>
+</html>
