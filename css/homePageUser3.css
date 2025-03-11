@@ -21,7 +21,7 @@ header {
 }
 .header-information p {
     font-family: "Encode_Sans-Bold";
-    font-size: 14px;
+    font-size: 18px;
     color: var(--color-2);
     width: 115px;
     height: 24px;
@@ -49,8 +49,10 @@ header {
 .header-image {
     width: 32px;
     height: 32px;
-    background-image: url(../storage/img/user2.jpeg);
+    background-image: url(../storage/img/user3.jpeg);
     margin-top: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 50%;
 }
 
@@ -249,7 +251,6 @@ li:active a {
     height: 15px;
     margin-top: 4px;
 }
-
 .card-button {
     display: flex;
     flex-direction: row;
