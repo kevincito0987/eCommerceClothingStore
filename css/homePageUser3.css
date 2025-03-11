@@ -1,0 +1,426 @@
+@import url(./variables.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 20px 10px;
+    height: 46px;
+}
+
+.header-information {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 46px;
+}
+.header-information p {
+    font-family: "Encode_Sans-Bold";
+    font-size: 16px;
+    color: var(--color-2);
+    width: 115px;
+    height: 24px;
+    margin-top: 5px;
+}
+.text {
+    display: flex;
+    flex-direction: row;
+    width: 115px;
+    height: 46px;
+}
+.text p {
+    font-family: "Encode_Sans-Regular";
+    font-size: 12px;
+    color: var(--color-1);
+    width: 97px;
+    height: 18px;
+
+}
+.text img {
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+}
+.header-image {
+    width: 32px;
+    height: 32px;
+    background-image: url(../storage/img/ProfilePageHome.png);
+    margin-top: 5px;
+}
+
+main {
+    background: var(--color-12);
+}
+/**************** nav ******************/
+.nav__busqueda {
+}
+
+.form__busqueda {
+    /* background: blue; */
+    margin: 0px, 0px;
+    padding: 10px 4px 32px 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.input__logo {
+    flex: 1;
+    /* background: orange; */
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.input__logo::before {
+    /* background: orange; */
+    content: url(../storage/icons/icon1PageHome.svg);
+    position: absolute;
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.form__busqueda input[type="text"] {
+    box-sizing: content-box;
+    flex: 1;
+    width: 263px;
+    height: 48px;
+    font-family: "Encode_Sans-Regular";
+    font-size: 18px;
+    gap: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--color-10);
+    border-radius: 8px;
+    padding: 0 0 0 40px;
+    box-shadow: 0px 4px 19px var(--color-shadow-1);
+}
+
+.form__busqueda input[type="text"]::placeholder {
+    color: var(--color-3);
+    font-size: 14px;
+}
+
+.input__filtro {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.input__filtro::after {
+    content: url(../storage/icons/icon2PageHome.svg);
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.form__busqueda input[type="submit"] {
+    flex: 1;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background: var(--color-5);
+}
+
+.nav__categoria {
+    /* background: green; */
+    margin: 0 6px 0 6px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 16px;
+}
+
+.nav__categoria li {
+    background: var(--color-10);
+    flex: 1;
+    list-style: none;
+    border-radius: 8px;
+    min-width: 92px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;   
+}
+.nav__categoria li:nth-child(1) {
+    min-width: 92px;
+}
+.nav__categoria li:nth-child(2) {
+    min-width: 75px;
+}
+.nav__categoria li:nth-child(3) {
+    min-width: 82px;
+}
+.nav__categoria li:nth-child(4) {
+    min-width: 73px;
+}
+.nav__categoria li a {
+    /* background: yellow; */
+    text-decoration: none;
+    color: var(--color-5);
+    font-family: "Inter_18pt-Medium";
+    font-size: 16px;
+}
+.nav__categoria li:active {
+    background: var(--color-8);
+    color: var(--color-9);
+}
+li.select {
+    background: var(--color-5);
+}
+
+li.select a {
+    color: var(--color-9);
+}
+
+li:active {
+    background: var(--color-10);
+}
+
+li:active a {
+    color: var(--color-9);
+}
+
+/******************************************/
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+    justify-content: start;
+    margin: 0 20px;
+    gap: 80px;
+}
+
+.cards1, .cards2, .cards3 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    position: relative;
+    box-sizing: content-box;
+    margin-top: 20px;
+}
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    background: var(--color-12);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-family: "Encode_Sans-SemiBold";
+    font-size: 14px;
+    color: var(--color-2);
+    width: 100%;
+    height: 21px;
+    margin-top: 8px;
+}
+.text1 {
+    top: 20px;
+}
+.card-text {
+    font-family: "Encode_Sans-Regular";
+    font-size: 10px;
+    color: var(--color-1);
+    width: 100%;
+    height: 15px;
+    margin-top: 20px;
+}
+
+.card-button {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 100%;
+    height: 21px;
+    margin-top: 8px;
+}
+
+.card-button p {
+    font-family: "Encode_Sans-SemiBold";
+    font-size: 14px;
+    color: var(--color-5);
+    width: 49px;
+    height: 15px;
+}
+
+.valoration {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 18px;
+}
+
+.valoration p {
+    font-family: "Encode_Sans-Regular";
+    font-size: 12px;
+    color: var(--color-5);
+    width: 16px;
+    height: 18px;
+}
+
+.card-image1, .card-image2, .card-image3, .card-image4 {
+    width: 100%;
+    position: relative;
+    overflow-y: scroll;
+    border-radius: 16px;
+}
+
+.card-image1 img, .card-image2 img, .card-image3 img, .card-image4 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.iconimage1, .iconimage2, .iconimage3, .iconimage4 {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    background: var(--color-5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconimage1 img, .iconimage2 img, .iconimage3 img, .iconimage4 img {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+}
+
+
+/**************** footer ******************/
+footer {
+    background: var(--color-5);
+    background-size: cover;
+    width: 100%;
+    height: 60px;
+    padding: 17px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    margin-top: 50px;
+    z-index: 10;
+    border-radius: 90px;
+    box-shadow: 0px 0px 25px 50px var(--color-9); /* Sombra blanca añadida aquí */
+}
+
+footer::after{
+    content: url(../storage/icons/maxIcon.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+    background: var(--color-3);
+    position: absolute;
+    inset: 0;
+    top: -65px;
+    border-radius: 100%;
+    margin: auto;
+    box-shadow: 0px 0px 35px var(--color-6);
+}
+footer:hover::after{
+    /* background: black; */
+}
+.div__izquierdo {
+    /* background: blue; */
+    display: flex;
+    gap:20px;
+}
+.div__izquierdo a{
+
+}
+.div__izquierdo a img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    padding-bottom: 10px;
+
+}
+.div__derecho {
+    /* background: green; */
+    display: flex;
+    gap:20px;
+}
+.div__derecho a{
+
+}
+.div__derecho a img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    padding-bottom: 10px;
+
+}
+
+/**************** movingBar ******************/
+
+.moving-bar {
+    width: 20px;
+    height: 10px;
+    background-color: var(--color-4);
+    position: absolute;
+    bottom: 0; /* Ajustar para que se vea debajo de los íconos */
+    transition: transform 0.2s ease;
+    left: 0px;
+    border-radius: 5px;
+}
+
+.div__izquierdo, .div__derecho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div__izquierdo a, .div__derecho a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.nav__categoria {
+    margin-top: 3.5rem; /* Ajusta este valor según sea necesario */
+}
+.results {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    max-height: 15rem;
+    overflow-y: auto;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  

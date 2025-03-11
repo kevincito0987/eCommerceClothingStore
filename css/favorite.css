@@ -1,0 +1,138 @@
+@import url(./variables.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: linear-gradient(rgba(220, 220, 220, 0.5), rgba(220, 220, 220, 0.5)), url(../storage/img/bgFavorite.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 98%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 5px 32px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 10px;
+}
+
+.card1, .card2, .card3, .card4 {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-12);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-family: "Encode_Sans-SemiBold";
+    font-size: 14px;
+    color: var(--color-2);
+    margin-top: 8px;
+}
+
+.card-text {
+    font-family: "Encode_Sans-Regular";
+    font-size: 10px;
+    color: var(--color-1);
+    margin-top: 4px;
+}
+
+.card-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.card-button p {
+    font-family: "Encode_Sans-SemiBold";
+    font-size: 14px;
+    color: var(--color-5);
+}
+
+.valoration {
+    display: flex;
+    align-items: center;
+}
+
+.valoration p {
+    font-family: "Encode_Sans-Regular";
+    font-size: 12px;
+    color: var(--color-5);
+}
+
+.card-image1, .card-image2, .card-image3, .card-image4 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card-image1 img, .card-image2 img, .card-image3 img, .card-image4 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.iconimage1, .iconimage2, .iconimage3, .iconimage4 {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    background: var(--color-5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconimage1 img, .iconimage2 img, .iconimage3 img, .iconimage4 img {
+    width: 16px;
+    height: 16px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    background-size: cover;
+    padding: 10px;
+    background: var(--color-5);
+    position: sticky;
+    z-index: 10;
+    border-radius: 45px;
+    box-shadow: 0px 0px 25px 20px var(--color-9);
+    border-top: 1px solid var(--color-10);
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-2);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+footer p {
+    font-family: "Encode_Sans-Bold";
+    font-size: 18px;
+    color: var(--color-4);
+    margin: 0;
+}
