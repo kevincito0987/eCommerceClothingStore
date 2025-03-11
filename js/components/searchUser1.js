@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
         { id: "card1", name: "Modern Light Clothes", category: "T-Shirt", price: "$212.99" },
         { id: "card2", name: "Light Dress Bless", category: "Dress", price: "$162.99" },
         { id: "card3", name: "Maroon Dark Top", category: "Dress", price: "$194.99" },
-        { id: "card4", name: "Light Dress Yellow", category: "Dress Modern", price: "$122.99" }
+        { id: "card4", name: "Light Dress Yellow", category: "Dress Modern", price: "$122.99" },
+        { id: "card5", name: "Casual Streetwear", category: "Outfit", price: "$89.99" },
+        { id: "card6", name: "Elegant Chic Suit", category: "Formal Wear", price: "$189.99" }
     ];
 
     const formBusqueda = document.querySelector(".form__busqueda");
