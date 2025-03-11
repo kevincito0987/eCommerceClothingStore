@@ -49,8 +49,9 @@ header {
 .header-image {
     width: 32px;
     height: 32px;
-    background-image: url(../storage/img/ProfilePageHome.png);
+    background-image: url(../storage/img/user2.jpeg);
     margin-top: 5px;
+    border-radius: 50%;
 }
 
 main {
