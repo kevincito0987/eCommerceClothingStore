@@ -171,3 +171,73 @@
 - **Precio:** "$139.99"
 - **Valoración:** ⭐ 4.7
 - **Descripción:** Esta chaqueta varsity combina un diseño clásico con un toque moderno gracias a sus mangas de cuero sintético y su contraste en blanco y negro. Ideal para quienes buscan un look casual pero con estilo. Perfecta para combinar con faldas, jeans o joggers, aportando versatilidad a cualquier outfit.
+
+### User 4: 
+
+**Username:** Dilan wang
+
+## Card 1:
+
+**Blazer Dress Urbano Chic**
+
+- **Imagen:** Una mujer con un blazer dress negro de doble botonadura, hombreras marcadas y falda corta con ligero vuelo. Complementa el look con botas altas y pendientes largos, destacando un estilo audaz y moderno.
+- **Título:** "Blazer Dress Urbano Chic"
+- **Categoría:** "Moda Urbana"
+- **Precio:** "$149.99"
+- **Valoración:** ⭐ 4.8
+- **Descripción:** Este blazer dress combina la elegancia clásica con un toque contemporáneo y atrevido. Su diseño estructurado resalta la figura, mientras que su falda corta añade dinamismo al outfit. Perfecto para eventos nocturnos o looks de street style sofisticados. Ideal para quienes buscan destacar con un aire empoderado y vanguardista.
+
+## Card 2:
+
+**Traje Elegante Black Royal**
+
+- **Imagen:** Un hombre con un traje negro de corte clásico, con solapas anchas y chaleco a juego. Complementa el look con una camisa y corbata negra, junto con un elegante dije dorado. Su estilo refleja sofisticación y distinción.
+- **Título:** "Traje Elegante Black Royal"
+- **Categoría:** "Moda Formal"
+- **Precio:** "$199.99"
+- **Valoración:** ⭐ 4.9
+- **Descripción:** Este traje negro es la definición de elegancia atemporal con un toque moderno. Su diseño estructurado y detalles refinados lo hacen perfecto para eventos de gala, reuniones de negocios o celebraciones exclusivas. Ideal para quienes buscan un look impecable, con presencia y carácter.
+
+## Card 3:
+
+**Estilo Urbano Black Shadow**
+
+- **Imagen:** Un hombre con un look completamente negro, compuesto por una camiseta ajustada y una chaqueta de cuero llevada sobre el hombro. Complementa su estilo con un collar plateado y un cinturón negro, proyectando una actitud segura y moderna.
+- **Título:** "Estilo Urbano Black Shadow"
+- **Categoría:** "Moda Casual"
+- **Precio:** "$89.99"
+- **Valoración:** ⭐ 4.8
+- **Descripción:** Este outfit minimalista en tonos oscuros combina sencillez y estilo con un aire de rebeldía. La combinación de una camiseta negra bien ajustada con detalles en accesorios metálicos y una chaqueta de cuero crea una estética moderna y sofisticada. Perfecto para quienes buscan un look casual pero con presencia, ideal para salidas nocturnas o eventos informales con un toque de actitud.
+
+## Card 4:
+
+**Elegancia Beige Royal**
+
+- **Imagen:** Una mujer con una blusa estructurada en color beige con detalles voluminosos en las mangas, creando un look sofisticado y refinado. Su cabello largo y liso complementa la elegancia del outfit, junto con unos pendientes dorados que añaden un toque de distinción.
+- **Título:** "Elegancia Beige Royal"
+- **Categoría:** "Moda Clásica"
+- **Precio:** "$129.99"
+- **Valoración:** ⭐ 4.9
+- **Descripción:** Este look fusiona lo clásico con lo contemporáneo gracias a su blusa de diseño estructurado y su tono neutro, perfecto para cualquier ocasión formal o elegante. Los detalles en las mangas aportan un aire de exclusividad, mientras que los accesorios dorados realzan la sofisticación del conjunto. Ideal para eventos importantes o reuniones donde se busca transmitir seguridad y estilo con sutileza.
+
+## Card 5:
+
+**Blusa Beige Volumen Chic**
+
+- **Imagen:** Una mujer luce una elegante blusa en tono beige con mangas voluminosas y estructuradas, resaltando un diseño sofisticado y moderno. Complementa su atuendo con gafas de sol oscuras y un cinturón ancho de cuero marrón que define su silueta, aportando un toque vanguardista.
+- **Título:** "Blusa Beige Volumen Chic"
+- **Categoría:** "Moda de Alta Costura"
+- **Precio:** "$149.99"
+- **Valoración:** ⭐ 4.8
+- **Descripción:** Esta blusa destaca por su diseño estructurado con mangas amplias y detalles que realzan la figura con un estilo elegante y vanguardista. El cinturón ancho en tono marrón crea un contraste armonioso, ideal para eventos sofisticados o looks de pasarela. Perfecta para combinar con faldas, pantalones de sastre o accesorios minimalistas para un outfit de alto impacto.
+
+## Card 6:
+
+**Traje Imperial Místico**
+
+- **Imagen:** Un hombre viste un imponente traje de inspiración imperial en tonos oscuros, decorado con intrincados detalles dorados que evocan una estética mística y poderosa. Su postura firme y la mirada penetrante resaltan el aura de autoridad y misterio, complementado con un tocado ornamentado que añade un aire de realeza.
+- **Título:** "Traje Imperial Místico"
+- **Categoría:** "Moda Fantasía y Épica"
+- **Precio:** "$229.99"
+- **Valoración:** ⭐ 4.9
+- **Descripción:** Este traje está diseñado para aquellos que buscan un look de fantasía majestuoso y sofisticado. Con detalles bordados en tonos dorados sobre una base oscura, transmite una elegancia única y un aire de nobleza. Ideal para eventos temáticos, sesiones fotográficas o representaciones de personajes legendarios. Su confección en telas de alta calidad garantiza comodidad y presencia imponente en cualquier ocasión.
