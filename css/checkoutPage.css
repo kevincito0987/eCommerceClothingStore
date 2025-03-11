@@ -202,6 +202,47 @@ header h2 {
     font-family: "Encode_Sans-Bold";
     color: var(--color-10);
 }
+.colors {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    align-items: flex-start;
+    margin: 0px 0px;
+}
+.size a:hover, .color div:hover {
+    background: var(--color-5);
+    color: var(--color-4);
+}
+
+.color1 {
+    background: var(--color-8);
+}
+
+.color2 {
+    background: var(--color-1);
+}
+
+.color3 {
+    background: var(--color-2);
+}
+.color div {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 26px;
+    color: var(--color-5);
+    text-decoration: none;
+}
+.bgboton {
+    background: var(--color-5);
+}
+.bgboton:hover {
+    background: var(--color-8);
+    color: var(--color-2);
+}
 
 /**************** subtotal ******************/
 .subtotal {
