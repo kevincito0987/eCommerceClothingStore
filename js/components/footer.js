@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function moveBarToIcon(iconElement) {
         const iconRect = iconElement.getBoundingClientRect();
         const footerRect = iconElement.closest('footer').getBoundingClientRect();
-        const barPosition = iconRect.left - footerRect.left + (iconElement.offsetWidth / 2) - (movingBar.offsetWidth / 2);
+        const barPosition = iconRect.left - footerRect.left + (iconElement.offsetWidth / 2) - (movingBar.offsetWidth / 2.2);
         movingBar.style.transform = `translateX(${barPosition}px)`;
     }
 
