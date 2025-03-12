@@ -50,6 +50,9 @@ header {
     width: 32px;
     height: 32px;
     background-image: url(../storage/img/user4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-top: 5px;
 }
 
