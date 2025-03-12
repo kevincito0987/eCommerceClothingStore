@@ -9,6 +9,7 @@
 /**************** main ******************/
 main {
     background: var(--color-14);
+    margin: 24px;
 }
 
 /**************** heroImage ******************/
@@ -120,7 +121,38 @@ main {
     align-items: center;
     gap: 8px;
 }
+details {
+    cursor: pointer;
+}
 
+summary {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Encode_Sans-Regular";
+    color: var(--color-1);
+    gap: 10px;
+}
+
+.read-more {
+    font-size: 14px;
+    color: var(--color-2);
+    font-family: "Encode_Sans-SemiBold";
+    transition: opacity 0.2s ease-in-out;
+    white-space: nowrap; /* Esto evitará que el texto se divida en múltiples líneas */
+}
+
+
+details[open] .read-more {
+    opacity: 10;
+    visibility: hidden;
+}
+
+p {
+    font-size: 12px;
+    font-family: "Encode_Sans-Regular";
+    color: var(--color-1);
+}
 .frases {
     display: flex;
     flex-direction: row;
@@ -285,7 +317,7 @@ main {
 footer {
     background: var(--color-5);
     background-size: cover;
-    width: 100%;
+    width: 88%;
     height: 60px;
     padding: 0px 50px;
     display: flex;
@@ -296,7 +328,8 @@ footer {
     bottom: 0;
     z-index: 10;
     border-radius: 45px;
-    box-shadow: 0px 0px 25px 20px var(--color-9);
+    box-shadow: 0px 0px 25px 30px var(--color-14);
+    margin: 24px 24px 0px;
 }
 
 .context {
