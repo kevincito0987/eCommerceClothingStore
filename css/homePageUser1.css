@@ -172,7 +172,7 @@ main {
     /* background: yellow; */
     text-decoration: none;
     color: var(--color-5);
-    font-family: "Inter_18pt-Medium";
+    font-family: "Encode_Sans-Regular";
     font-size: 16px;
 }
 .nav__categoria li:active {
