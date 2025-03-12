@@ -4,7 +4,6 @@
     <title>Home Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../css/output.css" rel="stylesheet">
     <link href="../css/homePageUser2.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
@@ -22,11 +21,13 @@
         <section>
             <nav class="nav__busqueda">
                 <form class="form__busqueda relative" action="?" method="get">
-                    <div class="input__logo">
-                        <input type="text" class="search-bar" name="search" placeholder="Search clothes. . ." autocomplete="off">
-                    </div>
-                    <div class="input__filtro">
-                        <input type="submit" value="">
+                    <div class="filtro">
+                        <div class="input__logo">
+                            <input type="text" class="search-bar" name="search" placeholder="Search clothes. . ." autocomplete="off">
+                        </div>
+                        <div class="input__filtro">
+                            <input type="submit" value="">
+                        </div>
                     </div>
                     <div class="results mt-2"></div> <!-- Resultados se mostrarán debajo del input -->
                 </form>
