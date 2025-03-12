@@ -28,3 +28,7 @@
     font-family: "Encode_Sans-Bold";
     src: url(../storage/font/Encode_Sans/static/EncodeSans-Bold.ttf);
 }
+@font-face {
+    font-family: "Encode_Sans-Medium";
+    src: url(../storage/font/Encode_Sans/static/EncodeSans-Medium.ttf);
+}

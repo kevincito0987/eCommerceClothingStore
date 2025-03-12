@@ -7,7 +7,7 @@
         <link href="../css/output.css" rel="stylesheet">
         <link href="../css/homePageUser1.css" rel="stylesheet">
     </head>
-    <body class="bg-gray-100">
+    <body>
         <header>
             <div class="header-information">
                 <div class="text">
@@ -21,14 +21,16 @@
         <main>
             <section>
                 <nav class="nav__busqueda">
-                    <form class="form__busqueda relative" action="?" method="get">
-                        <div class="input__logo">
-                            <input type="text" class="search-bar" name="search" placeholder="Search clothes. . ." autocomplete="off">
+                    <form class="form__busqueda" action="?" method="get">
+                        <div class="filtro">
+                            <div class="input__logo">
+                                <input type="text" class="search-bar" name="search" placeholder="Search clothes. . ." autocomplete="off">
+                            </div>
+                            <div class="input__filtro">
+                                <input type="submit" value="">
+                            </div>
                         </div>
-                        <div class="input__filtro">
-                            <input type="submit" value="">
-                        </div>
-                        <div class="results mt-2"></div> <!-- Resultados se mostrarán debajo del input -->
+                        <div class="results mt-2"></div>
                     </form>
                     <ul class="nav__categoria">
                         <li class="select"><img src="../storage/icons/icon3PageHome.svg" alt="Icon1"><a href="#">All Items</a></li>
