@@ -66,7 +66,6 @@ header h2 {
     padding: 10px;
     background: white;
     border-radius: 12px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card-image {
@@ -144,7 +143,6 @@ header h2 {
     padding: 20px;
     background: white;
     border-radius: 12px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .payment h2 {
@@ -252,7 +250,6 @@ header h2 {
     padding: 20px;
     background: white;
     border-radius: 12px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 }
 
