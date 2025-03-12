@@ -1,3 +1,4 @@
+
 // payment.js
 
 // Función para mostrar el cuadro de diálogo
@@ -13,9 +14,12 @@ function showAddToCartDialog() {
         if (result.isConfirmed) {
             Swal.fire("Added!", "The item has been added to your cart.", "success");
         } else if (result.isDenied) {
-            Swal.fire("Not Added", "The item was not added to your cart.", "info");        }
+            Swal.fire("Not Added", "The item was not added to your cart.", "info");
+        }
     });
-    // Añadir listener al botón "Add to Cart"
+}
+
+// Añadir listener al botón "Add to Cart"
 document.addEventListener('DOMContentLoaded', (event) => {
     const addToCartButton = document.getElementById("add-to-cart-button");
     if (addToCartButton) {
@@ -25,4 +29,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     }
 });
-}

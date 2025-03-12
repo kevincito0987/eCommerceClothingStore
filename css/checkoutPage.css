@@ -309,3 +309,7 @@ footer p {
     color: var(--color-4);
     margin: 0;
 }
+.pay {
+    background: none;
+    text-decoration: none;
+}
